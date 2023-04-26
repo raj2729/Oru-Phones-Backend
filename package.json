@@ -19,5 +19,8 @@
     "nodemon": "^2.0.22"
   },
   "author": "Raj",
-  "license": "ISC"
+  "license": "ISC",
+  "engines": {
+    "node": "^18.16.0"
+  }
 }
