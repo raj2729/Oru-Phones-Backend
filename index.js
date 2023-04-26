@@ -21,7 +21,7 @@ app.use(cors());
 app.use(express.json());
 
 //Port
-const PORT = process.env.PORT;
+const PORT = process.env.PORT || 8080;
 
 app.get("/", async (req, res) => {
   try {
